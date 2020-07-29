@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>王轩宇</title>
+<title>Shawn Wang</title>
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/normalize.css" />
 <link rel="stylesheet" type="text/css" href="css/demo.css" />
@@ -12,9 +12,24 @@
 <script>
 document.documentElement.className = 'js';
 </script>
+<!-- <script>
+	function doAction() {
+		document.getElementById("effectButton").click();
+		}
+</script> -->
+
+<script type="text/javascript">
+	function myfun()
+	{
+	//alert("this window.onload");
+	document.getElementById("effectButton").click();
+	}
+	/*用window.onload调用myfun()*/
+	window.onmousemove=myfun;//不要括号
+	</script>
 </head>
 <body class="demo-2">
-<svg class="hidden">
+<!-- <svg class="hidden">
 	<defs>
 		<symbol id="icon-arrow" viewBox="0 0 24 24">
 			<title>arrow</title>
@@ -26,23 +41,14 @@ document.documentElement.className = 'js';
 			<path d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z" />
 		</symbol>
 	</defs>
-</svg>
+</svg> -->
 <main>
 	
 	<!-- Initial markup -->
-	<div class="segmenter" style="background-image: url(img/2.png)"></div>
-	<h2 class="trigger-headline trigger-headline--hidden"><span>C</span><span>o</span><span>p</span><span>p</span><span>e</span><span>r</span></h2>
+	<div class="segmenter" style="background-image: url(img/table.jpg)"></div>
+	<h2 class="trigger-headline trigger-headline--hidden"><span>S</span><span>h</span><span>a</span><span>w</span><span>n</span></h2>
 	<div class="bottom-nav">
-		<button class="btn btn--trigger">Show Effect</button>
-		<nav class="jq22-demos">
-			<span>Examples: </span>
-			<a href="index.html">1</a>
-			<a class="current-demo" href="index2.html">2</a>
-			<a href="index3.html">3</a>
-			<a href="index4.html">4</a>
-			<a href="index5.html">5</a>
-			<a href="index6.html">6</a>
-		</nav>
+		<button class="btn btn--trigger" id="effectButton" style="background-color: transparent;"></button>
 	</div>
 </main>
 <script src="js/anime.min.js"></script>
