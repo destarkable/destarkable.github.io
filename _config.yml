@@ -1,17 +1,17 @@
 # site settings
-title: Greeting
-subtitle: from Wang Xuanyu
+title: BLOG
+subtitle: by Wang Xuanyu
 email: shawnwaang@gmail.com
 description: 真是一个不错的东西.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
+street_address: Xian Ning West Road
 city: Xi'an
 state: Shaanxi
 zip_code: 710049
 country: China
-phone:
+# phone:
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -26,9 +26,9 @@ googleplus_url:
 instagram_url: https://www.instagram.com/destarkable/
 linkedin_url: 
 pinterest_url:
-slack_url:
+slack_url: https://weibo.com/3648564757/profile?rightmod=1&wvr=6&mod=personinfo
 twitter_url: https://twitter.com/Starkerie
-Weibo_url: https://weibo.com/3648564757/profile?rightmod=1&wvr=6&mod=personinfo
+# Weibo_url: https://weibo.com/3648564757/profile?rightmod=1&wvr=6&mod=personinfo
 
 # build settings
 markdown: kramdown
