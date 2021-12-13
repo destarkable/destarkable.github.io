@@ -1,7 +1,7 @@
 # site settings
 title: BLOG
 subtitle: by Wang Xuanyu
-email: shawnwaang@gmail.com
+email: shawnwaang AT gmail DOT com
 description: 真是一个不错的东西.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
